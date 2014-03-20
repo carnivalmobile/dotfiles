@@ -159,7 +159,6 @@ endfunction
 if has("statusline") && !&cp
   set laststatus=2              " always show the status bar
   set statusline=%f\ %m\ %r     " filename, modified, readonly
-  set statusline+=%{fugitive#statusline()}
   set statusline+=\ %l/%L[%p%%] " current line/total lines
   set statusline+=\ %v[0x%B]    " current column [hex char]
   set statusline+=%{SyntaxItem()}
