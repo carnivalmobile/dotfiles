@@ -32,7 +32,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(git rvm github gem brew osx sublime)
-plugins=(git github gem brew osx)
+plugins=(git github gem brew osx terminalapp)
 
 # Customize to your needs...
 source $ZSH/oh-my-zsh.sh
