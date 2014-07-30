@@ -51,3 +51,5 @@ alias t2='tmux a -t 2'
 KEYTIMEOUT=1
 
 export PATH=$PATH:$HOME/.gem/ruby/2.0.0/bin
+
+alias prodconsole='cd /vol/www/carnival-backend/current && bundle exec rails c production'
