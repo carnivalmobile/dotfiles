@@ -192,14 +192,6 @@ nmap <leader>cl :!rake clang_db<CR>
 " Rail.vim bindings
 nmap <leader>t :Rrunner<CR>
 
-" vim-lldb mappings
-noremap <leader>po :Lpo<CR>
-noremap <leader>pO :LpO<CR>
-noremap <leader>lb :Lbreakpoint<CR>
-noremap <leader>lc :Lcontinue<CR>
-noremap <leader>ls :Lstep<CR>
-noremap <leader>ln :Lnext <CR>
-
 " ligthline
 let g:lightline = {
       \ 'colorscheme': 'wombat',
